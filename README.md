@@ -39,7 +39,7 @@ In this mannor you can look for proxy tags to an address to find messages for an
 Json format for sent by proxy
 
 {
-  'address': 'address of the proxied',
+  'nft': 'Unique asset used for signature'
   'timestamp': timestamp,
   'contents': { entire contents of kaw as if unproxied },
   'signature': 'signature of the contents'
