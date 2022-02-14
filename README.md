@@ -70,13 +70,14 @@ Profile Standard
 
 Marketplace Listing
 Json format 
-
+```
 {
     'address': 'address of the announcer (different from the swap)',
     'type': 0 (0 - 1 - 2  Sell, Buy, Trade) ,
     'txType':  0 (0 - 1   Atomic Swap - P2SH) ,
     'txDatas': {
-        0: 'xxxx'  All the Atomic Swap TX , for now only one
+        0: 'xxxx',   All the Atomic Swap Tx in a Dict 
+        1: 'xxxx'
     },
     'title': 'Title',
     'asset': 'Asset',
@@ -91,7 +92,7 @@ Json format
     'sqp2p_ver': '0.1'   Return 0.0 when not defined, basically all the ads until next update
 
 }
-
+```
 # Installation
 Squawker currently requires
 - being run on a full node 
